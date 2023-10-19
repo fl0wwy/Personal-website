@@ -1,0 +1,47 @@
+.container{
+    min-height: 100vh;
+    background-color: #232526;
+}
+
+.placeholder{
+    opacity: 0;
+}
+
+.content{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: azure;
+}
+
+.header_large{
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.header_small{
+    margin-bottom: 25px;
+}
+
+.link_box a{
+    padding: 7px;
+}
+
+.link_box{
+    border: 1px solid azure;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
