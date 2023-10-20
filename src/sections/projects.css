@@ -1,0 +1,62 @@
+@keyframes button {
+    to{background-color: azure; color: #232526; border-color: #232526;}  
+}
+
+.prj_container{
+    min-height: 100vh;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 0;
+    color: azure;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-bottom: 100px;
+}
+
+.section_headline{
+    font-size: 1.5em;
+    margin-bottom: 100px;
+}
+
+.project_headline{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.prj_container p{
+    font-size: 0.8em;
+    margin: 0 20px;
+    margin-bottom: 50px;
+}
+
+#chess img{
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.project_btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project_btns a{
+    color: azure;
+    border: 1px solid azure;
+    border-radius: 5px;
+    background-color: #232526;
+    width: min-content;
+    padding: 3px;
+}
+
+.project_btns a:hover{
+    animation-name: button;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}

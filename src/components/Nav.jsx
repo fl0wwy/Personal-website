@@ -1,11 +1,12 @@
 import React from 'react'
 import './nav.css'
+import logo from '../assets/logo_2.png'
 
 function Nav() {
   return (
     <nav>
         <div className="logo">
-            Bar Ben Waiss
+            <img src={logo} alt="logo" />
         </div>
         <div className="buttons">
             <a href="">Home</a>
