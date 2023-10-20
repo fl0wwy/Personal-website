@@ -1,0 +1,23 @@
+.about_container{
+    min-height: 100vh;
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+
+    text-align: center;
+    color: #434343;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_container h1{
+    font-size: 2em;
+    margin-top: 100px;
+}
+
+.about_container p{
+    max-width: 80vw;
+    line-height: 2em;
+    margin-bottom: 500px;
+}
