@@ -17,6 +17,7 @@ body{
   margin: 0;
   font-family: Montserrat;
   letter-spacing: 2px;
+  overflow-x: hidden;
 }
 
 a{

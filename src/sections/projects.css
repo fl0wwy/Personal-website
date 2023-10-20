@@ -40,10 +40,26 @@ h1{
     margin-bottom: 20px;
 }
 
+#tic_tac_toe img{
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+#personal_website img{
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+#ascii img{
+    height: 500px;
+}
+
+
 .project_btns{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .project_btns a{
@@ -53,10 +69,53 @@ h1{
     background-color: #232526;
     width: min-content;
     padding: 3px;
+    margin: 5px;
 }
 
 .project_btns a:hover{
     animation-name: button;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
+}
+
+@media (max-width: 768px) {
+    #chess img{
+        height: 50vw;
+        margin-bottom: 20px;
+    }
+    
+    #tic_tac_toe img{
+        height: 50vw;
+        margin-bottom: 20px;
+    }
+    
+    #personal_website img{
+        height: 40vw;
+        margin-bottom: 20px;
+    }
+    
+    #ascii img{
+        height: 50vw;
+    }
+}
+
+@media (max-width: 926px) and (orientation: landscape) {
+    #chess img{
+        height: 50vw;
+        margin-bottom: 20px;
+    }
+    
+    #tic_tac_toe img{
+        height: 40vw;
+        margin-bottom: 20px;
+    }
+    
+    #personal_website img{
+        height: 40vw;
+        margin-bottom: 20px;
+    }
+    
+    #ascii img{
+        height: 50vw;
+    }
 }
