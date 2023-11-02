@@ -30,6 +30,7 @@ nav{
 
 .logo{
     margin-left: 20px;
+
 }
 
 .cv{
@@ -41,6 +42,7 @@ nav{
     height: 30px;
     display: block;
     box-sizing: border-box;
+    margin: 0;
 }
 
 @media (max-width: 768px){

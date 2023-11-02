@@ -35,23 +35,9 @@ h1{
     margin-bottom: 50px;
 }
 
-#chess img{
+img{
     height: 500px;
     margin-bottom: 20px;
-}
-
-#tic_tac_toe img{
-    height: 500px;
-    margin-bottom: 20px;
-}
-
-#personal_website img{
-    height: 500px;
-    margin-bottom: 20px;
-}
-
-#ascii img{
-    height: 500px;
 }
 
 
@@ -79,23 +65,12 @@ h1{
 }
 
 @media (max-width: 768px) {
-    #chess img{
+    img{
         height: 50vw;
-        margin-bottom: 20px;
     }
-    
-    #tic_tac_toe img{
-        height: 50vw;
-        margin-bottom: 20px;
-    }
-    
+
     #personal_website img{
-        height: 40vw;
-        margin-bottom: 20px;
-    }
-    
-    #ascii img{
-        height: 50vw;
+        height: 44vw;
     }
 }
 

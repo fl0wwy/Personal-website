@@ -1,4 +1,3 @@
-import React, { useRef } from 'react'
 import './about.css'
 import Footer from '../components/Footer'
 
