@@ -23,7 +23,7 @@ function Projects() {
               <img src={chess} alt="chess" />  
             </div>
             <div className="project_btns">
-              <a href="">Source code</a>
+              <a href="https://github.com/fl0wwy/Chess-Interface">Source code</a>
             </div>
           </div>
           <div className="showcase" id='tic_tac_toe'>
@@ -33,21 +33,21 @@ function Projects() {
               <img src={tic_tac_toe} alt="tic_tac_toe" />  
             </div>
             <div className="project_btns">
-              <a href="">Source code</a>
-              <a href="">Play game</a>
+              <a href="https://github.com/fl0wwy/Tic-Tac-Toe-AI">Source code</a>
+              <a href="https://fl0wwy.github.io/Tic-Tac-Toe-AI/">Play game</a>
             </div>
           </div>
       </div>
       <div className="section" id='websites'>
         <div className="section_headline">Websites</div>
         <div className="showcase" id='personal_website'>
-          <div className="project_headline">Personal Webite</div>
+          <div className="project_headline">Personal Website</div>
           <div className="project_content">
             <p>Developed in React; The very website you are browsing on right now.</p>
             <img src={personal_website} alt="personal_website" />  
           </div>
           <div className="project_btns">
-            <a href="">Source code</a>
+            <a href="https://github.com/fl0wwy/Portfolio">Source code</a>
           </div>
         </div>
         <div className="showcase" id='amazon_scraper'>
@@ -61,7 +61,7 @@ function Projects() {
             <img src={scraper} alt="amazon scraper website"/>
           </div>
           <div className="project_btns">
-            <a href="">Source code</a>
+            <a href="https://github.com/fl0wwy/Amazon-scraper">Source code</a>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ function Projects() {
             <img src={ascii} alt="ascii_lambo" />
           </div>
           <div className="project_btns">
-            <a href="">Source code</a>
+            <a href="https://github.com/fl0wwy/Image-Video-To-ASCII">Source code</a>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ function Projects() {
             <img src={solar} alt="solar_system"/>
           </div>
           <div className="project_btns">
-            <a href="">Source code</a>
+            <a href="https://github.com/fl0wwy/Solar-System">Source code</a>
           </div>
         </div>
       </div>
