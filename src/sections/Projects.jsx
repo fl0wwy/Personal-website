@@ -60,6 +60,9 @@ function Projects() {
             </p>
             <img src={scraper} alt="amazon scraper website"/>
           </div>
+          <div className="project_btns">
+            <a href="">Source code</a>
+          </div>
         </div>
       </div>
       <div className="section" id='art'>
