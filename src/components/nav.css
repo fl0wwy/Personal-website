@@ -43,6 +43,7 @@ nav{
     display: block;
     box-sizing: border-box;
     margin: 0;
+    box-shadow: none;
 }
 
 @media (max-width: 768px){
